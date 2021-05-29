@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  // Variables and Fonts
+  
+:root {
+    --black: #000;
+    --gray: rgb(177, 172, 172);
+    --white: #fff;
+    --yellow:#fff200;
+  }
+  
+*,
+input,
+button {
+    font-family: 'Inter', sans-serif;
+}
+  
+html {
+   font-size: 62.5%;
+   
+}

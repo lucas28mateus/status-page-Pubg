@@ -1,0 +1,139 @@
+
+body {
+	align-items: center;
+	background: rgba(0, 0, 0, .65) url("../assets/Pubg\ Lite\ 1st\ Gameplay\ _\ 10\ kills\ Solo\ Vs\ Squad.png");
+	background-attachment: fixed;
+    background-blend-mode: darken;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+	place-items: center;
+}
+
+.nickPosition {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 40px 60px 470px 60px;
+    position: fixed;
+
+    .nick {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            color: var(--white);
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: -0.2rem;
+        }
+
+        .winner {
+            color: var(--yellow);
+            margin-top: 17px;
+            font-size: 35px;
+            letter-spacing: -0.2rem;
+            font-weight: 700;
+        }
+    }
+
+    .position {
+        display: flex;
+        font-size: 30px;
+
+        .one {
+            color: var(--yellow);
+            margin-right: 6px;
+        }
+
+        span {
+            color: var(--gray);
+            font-weight: 500;
+            letter-spacing: -0.2rem;
+        }
+    }
+
+}
+
+.rank {
+    width: 37%;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 10px 60px 200px 60px;
+    color: var(--white);
+
+    span {
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 30px;
+        display: flex;
+        p {
+            font-size: 15px;
+            margin-left: 5px;
+        }
+    }
+    .kill {
+        align-items: baseline;
+    }
+
+    .point{
+        display: flex;
+        flex-direction: column;
+        margin-top: 350px;
+       
+        align-items: center;
+        justify-content: space-between;
+
+        .infobp {
+            display: flex;
+           
+            .bp {
+                margin-left: 15px;
+            }
+        }
+
+        .points {
+            width: 167px;
+            margin-bottom: 195px;
+            display: flex;
+            flex-direction: column;
+           
+            span {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            width: 320px;
+           margin-bottom: 40px;
+           justify-content: space-between;
+
+          .buttonLoby {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          button {
+            background:var(--black) ;
+            color: var(--white);
+            border-radius: 0.4rem;
+            margin: 1.2rem;
+            padding: 0.1px 40px;
+            border: 0.1rem solid var(--white);
+
+            font-size: 1.6rem;
+            font-weight: 300;
+
+            cursor: pointer;
+          }
+        }
+   }
+}
+

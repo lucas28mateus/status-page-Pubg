@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --gray: rgb(177, 172, 172);
+  --white: #fff;
+  --yellow:#fff200;
+}
+
+*,
+input,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.65) url("../assets/Pubg Lite 1st Gameplay _ 10 kills Solo Vs Squad.png");
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  place-items: center;
+}
+
+.nickPosition {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 40px 60px 470px 60px;
+  position: fixed;
+}
+.nickPosition .nick {
+  display: flex;
+  flex-direction: column;
+}
+.nickPosition .nick span {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -0.2rem;
+}
+.nickPosition .nick .winner {
+  color: var(--yellow);
+  margin-top: 17px;
+  font-size: 35px;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+.nickPosition .position {
+  display: flex;
+  font-size: 30px;
+}
+.nickPosition .position .one {
+  color: var(--yellow);
+  margin-right: 6px;
+}
+.nickPosition .position span {
+  color: var(--gray);
+  font-weight: 500;
+  letter-spacing: -0.2rem;
+}
+
+.rank {
+  width: 37%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 60px 200px 60px;
+  color: var(--white);
+}
+.rank span {
+  font-size: 25px;
+  font-weight: 200;
+  margin-left: 30px;
+  display: flex;
+}
+.rank span p {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.rank .kill {
+  align-items: baseline;
+}
+.rank .point {
+  display: flex;
+  flex-direction: column;
+  margin-top: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
+.rank .point .infobp {
+  display: flex;
+}
+.rank .point .infobp .bp {
+  margin-left: 15px;
+}
+.rank .point .points {
+  width: 167px;
+  margin-bottom: 195px;
+  display: flex;
+  flex-direction: column;
+}
+.rank .point .points span {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.rank .point .buttons {
+  display: flex;
+  width: 320px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.rank .point .buttons .buttonLoby {
+  display: flex;
+  justify-content: space-between;
+}
+.rank .point .buttons button {
+  background: var(--black);
+  color: var(--white);
+  border-radius: 0.4rem;
+  margin: 1.2rem;
+  padding: 0.1px 40px;
+  border: 0.1rem solid var(--white);
+  font-size: 1.6rem;
+  font-weight: 300;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
